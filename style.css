@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1671881/pexels-photo-1671881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  text-align: center;
+  margin-top: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(255, 215, 0);
+  background-color: rgb(129, 242, 159, 0.2);
+  border-radius: 15%;
+  font-size: x-large;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: auto; /* Center the container horizontally */
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent; /* Set the background to be transparent */
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: 2px solid #f1f1f1; /* Set the border properties */
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: transparent; /* Set the hover background to be transparent */
+  border: 2px solid black; /* Set the hover border properties */
+  color: white;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 15%;
+}
+
+footer{
+  color: rgb(255, 215, 0);
+}
+
+h2{
+  color: rgb(255, 215, 0);
+}
+
+p, ul{
+  color: black;
+  font-weight: bold;
+}
+
+.recipes{
+  background-color: rgba(127, 186, 73, 0.5);
+}
+
+li{
+  list-style: none;
+}
